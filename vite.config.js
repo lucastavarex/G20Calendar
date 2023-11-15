@@ -8,6 +8,7 @@ import path from 'path';
 export default defineConfig(({ command, mode }) => {
   return {
     define: {
+      base: command === 'build' ? '/G20Calendar/' : '/',
       // By default, Vite doesn't include shims for NodeJS/
       // necessary for segment analytics lib to work
       global: {},
