@@ -23,12 +23,12 @@ html {
 
 .calendar-navigate {
   padding: 10px;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .calendar-navigate:hover {
   cursor: pointer;
-  opacity: 0.9;
+  /* opacity: 0.9; */
 }
 
 .calendar-header {
@@ -63,7 +63,7 @@ html {
   font-size: 14px;
   border-bottom: 1px solid;
   border-right: 1px solid;
-  border-color: lightgray;
+  border-color: black;
   display: flex;
   flex-direction: column;
 }

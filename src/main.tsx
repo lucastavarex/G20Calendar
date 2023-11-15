@@ -20,7 +20,7 @@ let calendars = [
 let styles = {
   //you can use object styles (no import required)
   calendar: {
-    borderWidth: "1.6px", //make outer edge of calendar thicker
+    borderWidth: "1.0px", //make outer edge of calendar thicker
   },
 
   //you can also use emotion's string styles
