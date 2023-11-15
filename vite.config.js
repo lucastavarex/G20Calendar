@@ -21,22 +21,6 @@ export default defineConfig(({ command, mode }) => {
       }),
       cssInjectedByJsPlugin()
     ],
-    build: {
-      lib: {
-        entry: path.resolve(__dirname, 'src/index.tsx'),
-        name: 'react-google-calendar',
-        formats: ['es', 'umd'],
-        fileName: (format) => `react-google-calendar.${format}.js`,
-      },
-      rollupOptions: {
-        external: ['react', 'react-dom'],
-        output: {
-          globals: {
-            react: 'React',
-            'react-dom': 'ReactDOM',
-          },
-        }
-      },
-    }
+   
   };
 });
