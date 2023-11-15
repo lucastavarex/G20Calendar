@@ -8,7 +8,7 @@ const apiKey = GAPI.API_KEY;
 let calendars = [
   {
     calendarId: GAPI.CALENDAR_ID,
-    // color: "#B241D1",
+    color: "#007E7D",
   }, //add a color field to specify the color of a calendar
   // { calendarId: "hkr1dj9k6v6pa79gvpv03eapeg@group.calendar.google.com" }, //without a specified color, it defaults to blue (#4786ff)
   // {
