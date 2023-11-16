@@ -1,7 +1,10 @@
 html {
   overflow-wrap: inherit;
 }
-
+* {    
+  margin: 0 !important;
+  padding: 0 !important;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -12,6 +15,11 @@ html {
   /* background-color: #242424; */
 
 
+}
+
+h2.calendar-title{
+  font-size: 20px;
+  font-family: Outfit, sans-serif;
 }
 
 .unselectable {
@@ -63,7 +71,7 @@ html {
   font-size: 14px;
   border-bottom: 1px solid;
   border-right: 1px solid;
-  border-color: black;
+  border-color:#8d8d8d; 
   display: flex;
   flex-direction: column;
 }
@@ -85,7 +93,7 @@ html {
 }
 
 .day-name {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   text-align: center;
   border-bottom: 1px solid;

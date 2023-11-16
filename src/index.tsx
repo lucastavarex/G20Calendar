@@ -203,7 +203,7 @@ export default class Calendar extends React.Component<CalendarProps, CalendarSta
       <div
         className="day-name"
         key={"day-of-week-" + i}
-        css={[{ borderColor: "black" }, _.get(this.props.styles, 'day', {})]}
+        css={[{ borderColor: "#8d8d8d" }, _.get(this.props.styles, 'day', {})]}
       >
         {x}
       </div>
@@ -558,10 +558,10 @@ export default class Calendar extends React.Component<CalendarProps, CalendarSta
         className="calendar"
         css={[{
           fontSize: "18px",
-          border: "0.5px solid",
+          border: "1.0px solid",
           minWidth: "300px",
           position: "relative",
-          borderColor: "black",
+          borderColor:"#8d8d8d" ,
           color: "#51565d",
         }, _.get(this.props.styles, 'calendar', {})]}
       >
